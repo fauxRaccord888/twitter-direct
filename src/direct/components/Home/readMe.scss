@@ -1,0 +1,37 @@
+.readme-body {
+    --main: rgb(96, 199, 255);
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        color: var(--main);
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        height: fit-content;
+        list-style-type: circle;
+        padding-inline-start: 1rem;
+        margin-top: -1rem;
+        margin-bottom: -1rem;
+    }
+
+    em {
+        font-weight: 700;
+        font-style: normal;
+        color: var(--main);
+    }
+
+    code {
+        color: var(--main);
+    }
+
+    a {
+        color: rgb(65, 150, 255);
+        text-decoration: underline;
+    }
+
+}
